@@ -64,8 +64,8 @@ function takeCommand(msg) {
 	} else if (msg.includes("open facebook")) {
 		speak("Opening facebook");
 		window.open("https://www.facebook.com");
-	} else if (msg.includes("open linkdin")) {
-		speak("Opening linkdin");
+	} else if (msg.includes("open linkedin") || msg.includes("open linkdin")) {
+		speak("Opening LinkedIn");
 		window.open("https://www.linkedin.com");
 	} else if (msg.includes("open google")) {
 		speak("Opening google");
