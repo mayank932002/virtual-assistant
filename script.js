@@ -1,7 +1,5 @@
 window.addEventListener("load", () => {
-	setTimeout(() => {
-		greetMe();
-	}, 100);
+	greetMe();
 });
 
 let btn = document.querySelector("#btn");
@@ -13,7 +11,7 @@ function speak(text) {
 	textSpeak.rate = 1;
 	textSpeak.pitch = 1;
 	textSpeak.volume = 1;
-	textSpeak.lang = "hi";  
+	textSpeak.lang = "hi";
 	window.speechSynthesis.speak(textSpeak);
 }
 
