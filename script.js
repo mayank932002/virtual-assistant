@@ -11,7 +11,6 @@ function speak(text) {
 	textSpeak.rate = 1;
 	textSpeak.pitch = 1;
 	textSpeak.volume = 1;
-	textSpeak.lang = "hi";
 	window.speechSynthesis.speak(textSpeak);
 }
 
