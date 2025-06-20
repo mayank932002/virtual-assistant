@@ -56,15 +56,15 @@ h1 {
 	cursor: pointer;
 	box-shadow: 2px 2px 10px rgb(21, 145, 207), 2px 2px 10px rgb(201, 41, 116);
 	transition: all 0.3s ease;
+	font-size: larger;
 }
 #btn:hover {
 	background: linear-gradient(to left, rgb(21, 145, 207), rgb(201, 41, 116));
 	box-shadow: 2px 2px 20px rgb(201, 41, 116), 2px 2px 20px rgb(21, 145, 207);
 	scale: 1.1;
+	color: white;
 }
-#btn img {
-	width: 24px;
-}
+
 #content {
 	text-transform: capitalize;
 	font-size: 1rem;
