@@ -58,17 +58,17 @@ function takeCommand(msg) {
 		window.open("https://www.youtube.com");
 	} else if (msg.includes("how are you")) {
 		speak("I am fine what about you?");
-	} else if (msg.includes("open youtube")) {
+	} else if (msg.includes("open instagram")) {
 		speak("Opening instagram");
 		window.open("https://www.instagram.com");
-	} else if (msg.includes("open instagram")) {
+	} else if (msg.includes("open facebook")) {
 		speak("Opening facebook");
 		window.open("https://www.facebook.com");
-	} else if (msg.includes("open facebook")) {
+	} else if (msg.includes("open linkdin")) {
 		speak("Opening linkdin");
 		window.open("https://www.linkedin.com");
 	} else if (msg.includes("open google")) {
-		speak("Opening linkdin");
+		speak("Opening google");
 		window.open("https://www.google.com");
 	} else if (msg.includes("open calculator")) {
 		speak("Opening calculator");
