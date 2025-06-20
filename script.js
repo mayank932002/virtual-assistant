@@ -51,13 +51,13 @@ function takeCommand(msg) {
 
 	if (msg.includes("hello")) {
 		speak("Hello , How Are You , What Can I Do For You?");
-	} else if (msg.includes("How are you")) {
-		speak("Hii, I am fine ,What about you sir/ma'am?");
 	} else if (msg.includes("who are you")) {
 		speak("I am virtual assistant , created by Mayank Sir");
 	} else if (msg.includes("open youtube")) {
 		speak("Opening Youtube");
 		window.open("https://www.youtube.com");
+	} else if (msg.includes("how are you")) {
+		speak("I am fine what about you?");
 	} else if (msg.includes("open youtube")) {
 		speak("Opening instagram");
 		window.open("https://www.instagram.com");
